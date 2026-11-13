@@ -1,0 +1,219 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.flying-rectangle",
+  "name": "Flying Rectangle",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The first clip zooms in through a black frame that closes into a band, tilts upright and flies away; the second clip then settles from a blurred zoom with a fading glow. Recreated and optimized with reference to CapCut's \"Flying Rectangle\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/settle.wgsl",
+          "inputs": [
+            "second"
+          ],
+          "outputs": ["soft"]
+        },
+        {
+          "shader": "shaders/box-x.wgsl",
+          "inputs": [
+            "soft"
+          ],
+          "outputs": ["soft_x"]
+        },
+        {
+          "shader": "shaders/box-y.wgsl",
+          "inputs": [
+            "soft_x"
+          ],
+          "outputs": ["soft"]
+        },
+        {
+          "shader": "shaders/box-x.wgsl",
+          "inputs": [
+            "soft"
+          ],
+          "outputs": ["soft_x"]
+        },
+        {
+          "shader": "shaders/box-y.wgsl",
+          "inputs": [
+            "soft_x"
+          ],
+          "outputs": ["soft"]
+        },
+        {
+          "shader": "shaders/box-x.wgsl",
+          "inputs": [
+            "soft"
+          ],
+          "outputs": ["soft_x"]
+        },
+        {
+          "shader": "shaders/box-y.wgsl",
+          "inputs": [
+            "soft_x"
+          ],
+          "outputs": ["soft"]
+        },
+        {
+          "shader": "shaders/glow-lift.wgsl",
+          "inputs": [
+            "soft"
+          ],
+          "outputs": ["glow_a"]
+        },
+        {
+          "shader": "shaders/glow-x-a.wgsl",
+          "entry": "sweep_x_1",
+          "inputs": [
+            "glow_a"
+          ],
+          "outputs": ["glow_x"]
+        },
+        {
+          "shader": "shaders/glow-y-a.wgsl",
+          "entry": "merge_1",
+          "inputs": [
+            "glow_x",
+            "glow_a"
+          ],
+          "outputs": ["glow_b"]
+        },
+        {
+          "shader": "shaders/glow-x-b.wgsl",
+          "entry": "sweep_x_2",
+          "inputs": [
+            "glow_b"
+          ],
+          "outputs": ["glow_x"]
+        },
+        {
+          "shader": "shaders/glow-y-b.wgsl",
+          "entry": "merge_2",
+          "inputs": [
+            "glow_x",
+            "glow_b"
+          ],
+          "outputs": ["glow_a"]
+        },
+        {
+          "shader": "shaders/glow-x-a.wgsl",
+          "entry": "sweep_x_3",
+          "inputs": [
+            "glow_a"
+          ],
+          "outputs": ["glow_x"]
+        },
+        {
+          "shader": "shaders/glow-y-a.wgsl",
+          "entry": "merge_3",
+          "inputs": [
+            "glow_x",
+            "glow_a"
+          ],
+          "outputs": ["glow_b"]
+        },
+        {
+          "shader": "shaders/glow-x-b.wgsl",
+          "entry": "sweep_x_4",
+          "inputs": [
+            "glow_b"
+          ],
+          "outputs": ["glow_x"]
+        },
+        {
+          "shader": "shaders/glow-y-b.wgsl",
+          "entry": "merge_4",
+          "inputs": [
+            "glow_x",
+            "glow_b"
+          ],
+          "outputs": ["glow_a"]
+        },
+        {
+          "shader": "shaders/glow-x-a.wgsl",
+          "entry": "sweep_x_5",
+          "inputs": [
+            "glow_a"
+          ],
+          "outputs": ["glow_x"]
+        },
+        {
+          "shader": "shaders/glow-y-a.wgsl",
+          "entry": "merge_5",
+          "inputs": [
+            "glow_x",
+            "glow_a"
+          ],
+          "outputs": ["glow_b"]
+        },
+        {
+          "shader": "shaders/glow-x-b.wgsl",
+          "entry": "sweep_x_6",
+          "inputs": [
+            "glow_b"
+          ],
+          "outputs": ["glow_x"]
+        },
+        {
+          "shader": "shaders/glow-y-b.wgsl",
+          "entry": "merge_6",
+          "inputs": [
+            "glow_x",
+            "glow_b"
+          ],
+          "outputs": ["glow_a"]
+        },
+        {
+          "shader": "shaders/glow-x-a.wgsl",
+          "entry": "sweep_x_7",
+          "inputs": [
+            "glow_a"
+          ],
+          "outputs": ["glow_x"]
+        },
+        {
+          "shader": "shaders/glow-y-a.wgsl",
+          "entry": "merge_7",
+          "inputs": [
+            "glow_x",
+            "glow_a"
+          ],
+          "outputs": ["glow_b"]
+        },
+        {
+          "shader": "shaders/final.wgsl",
+          "inputs": [
+            "first",
+            "second",
+            "soft",
+            "glow_b"
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.bubble-blur",
+  "name": "Bubble Blur",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "Both clips soften into a ring-shaped bokeh where bright spots bloom into hollow bubbles, cross-fading at the peak of the blur. Recreated and optimized with reference to CapCut's \"Bubble Blur\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/soften-h-first.wgsl",
+          "inputs": [
+            "first"
+          ],
+          "outputs": ["first_h"]
+        },
+        {
+          "shader": "shaders/soften-h-second.wgsl",
+          "inputs": [
+            "second"
+          ],
+          "outputs": ["second_h"]
+        },
+        {
+          "shader": "shaders/soften-v-first.wgsl",
+          "inputs": [
+            "first_h"
+          ],
+          "outputs": ["first_v"]
+        },
+        {
+          "shader": "shaders/soften-v-second.wgsl",
+          "inputs": [
+            "second_h"
+          ],
+          "outputs": ["second_v"]
+        },
+        {
+          "shader": "shaders/bokeh.wgsl",
+          "inputs": [
+            "first",
+            "second",
+            "first_v",
+            "second_v"
+          ]
+        }
+      ]
+    }
+  ]
+}

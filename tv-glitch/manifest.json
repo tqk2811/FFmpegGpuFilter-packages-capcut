@@ -1,0 +1,38 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.tv-glitch",
+  "name": "TV Glitch",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "Cut to the second clip behind a bulging CRT lens, banded TV static, jumping picture shifts and colour fringing. Recreated and optimized with reference to CapCut's \"TV Glitch\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/glitch.wgsl"
+        }
+      ]
+    }
+  ]
+}

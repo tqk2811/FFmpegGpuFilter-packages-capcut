@@ -1,0 +1,58 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.shuriken-switch",
+  "name": "Shuriken Switch",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The first clip spins away into the distance under a rotational blur while the second clip flies in edge-on with a zoom blur and untwists to fill the frame. Recreated and optimized with reference to CapCut's \"Shuriken Switch\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/spin-blur.wgsl",
+          "inputs": [
+            "first"
+          ],
+          "outputs": ["spun"]
+        },
+        {
+          "shader": "shaders/zoom-blur.wgsl",
+          "inputs": [
+            "second"
+          ],
+          "outputs": ["zoomed"]
+        },
+        {
+          "shader": "shaders/composite.wgsl",
+          "inputs": [
+            "first",
+            "second",
+            "spun",
+            "zoomed"
+          ]
+        }
+      ]
+    }
+  ]
+}

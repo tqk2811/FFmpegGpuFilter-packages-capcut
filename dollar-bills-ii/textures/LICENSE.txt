@@ -1,0 +1,9 @@
+bill-front.png, bill-back.png - front and back of the US $100 Federal Reserve Note, scaled
+down to 512x216.
+Author: Bureau of Engraving and Printing (United States government work).
+License: Public domain (PD-USGov).
+Sources:
+  https://commons.wikimedia.org/wiki/File:Obverse_of_the_series_2009_$100_Federal_Reserve_Note.jpg
+  https://commons.wikimedia.org/wiki/File:Reverse_of_the_series_2013_$100_Federal_Reserve_Note.jpg
+US law (31 CFR 411) only limits printed reproductions of currency; use in film and video
+is allowed.

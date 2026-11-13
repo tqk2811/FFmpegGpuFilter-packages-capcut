@@ -1,0 +1,38 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.petal-wind",
+  "name": "Petal Wind",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "A gust of red rose petals sweeps across the frame while the first clip dissolves into the second. Recreated and optimized with reference to CapCut's \"Petal Wind\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/petal-wind.wgsl"
+        }
+      ]
+    }
+  ]
+}

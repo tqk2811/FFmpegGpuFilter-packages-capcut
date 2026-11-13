@@ -1,0 +1,52 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.blurred-switch",
+  "name": "Blurred Switch",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "White flashes, a horizontal blur burst and half-screen white and black strobes over a quick dissolve to the second clip. Recreated and optimized with reference to CapCut's \"Blurred Switch\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/reduce.wgsl",
+          "inputs": [
+            "first",
+            "second"
+          ],
+          "outputs": ["small"]
+        },
+        {
+          "shader": "shaders/blur.wgsl",
+          "inputs": [
+            "first",
+            "second",
+            "small"
+          ],
+          "outputs": ["out"]
+        }
+      ]
+    }
+  ]
+}

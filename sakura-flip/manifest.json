@@ -1,0 +1,38 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.sakura-flip",
+  "name": "Sakura Flip",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "A giant cherry blossom petal sweeps across the frame among drifting petals and flips over while a soft wipe reveals the second clip. Recreated and optimized with reference to CapCut's \"Sakura Flip\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/sakura-flip.wgsl"
+        }
+      ]
+    }
+  ]
+}

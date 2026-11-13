@@ -1,0 +1,49 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.snap-zoom",
+  "name": "Snap Zoom",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The first clip shrinks into a pinched, magnified bubble under zoom streaks, then a blue flash snaps to the second clip as it springs out of a bulge with a short shake. Recreated and optimized with reference to CapCut's \"Snap Zoom\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/scene.wgsl",
+          "inputs": ["first", "second"],
+          "outputs": ["scene"]
+        },
+        {
+          "shader": "shaders/trail.wgsl",
+          "inputs": ["scene"],
+          "outputs": ["trail"]
+        },
+        {
+          "shader": "shaders/finish.wgsl",
+          "inputs": ["trail", "first", "second"]
+        }
+      ]
+    }
+  ]
+}

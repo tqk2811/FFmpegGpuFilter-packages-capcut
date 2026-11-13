@@ -1,0 +1,38 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.twist-flip",
+  "name": "Twist Flip",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The first clip darkens and twists about the diagonal like a ribbon, pinching at the centre, and untwists showing the second clip on its back, shrinking slightly over black. Recreated and optimized with reference to CapCut's \"Twist Flip\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/twist.wgsl"
+        }
+      ]
+    }
+  ]
+}

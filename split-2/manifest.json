@@ -1,0 +1,46 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.split-2",
+  "name": "Split II",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The top and bottom halves slide sideways in opposite directions with motion blur, revealing the second clip. Recreated and optimized with reference to CapCut's \"Split II\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    },
+    {
+      "name": "duration",
+      "type": "float",
+      "default": 0.8,
+      "min": 0.01,
+      "max": 10,
+      "description": "Real transition length in seconds; scales the motion blur"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/split.wgsl"
+        }
+      ]
+    }
+  ]
+}

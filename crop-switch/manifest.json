@@ -1,0 +1,38 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.crop-switch",
+  "name": "Crop Switch",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "Cropped panels of the second clip pop up over the first with drop shadows and jolts, then the second clip cuts in. Recreated and optimized with reference to CapCut's \"Crop Switch\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/crop-switch.wgsl"
+        }
+      ]
+    }
+  ]
+}

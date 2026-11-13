@@ -1,0 +1,49 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.rotating-disk",
+  "name": "Rotating Disk",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The first clip spins away under a rotational blur while a growing disc reveals the second clip unwinding into place, with a brief exposure flash. Recreated and optimized with reference to CapCut's \"Rotating Disk\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/spin-first.wgsl",
+          "inputs": ["first"],
+          "outputs": ["spun_first"]
+        },
+        {
+          "shader": "shaders/spin-second.wgsl",
+          "inputs": ["second"],
+          "outputs": ["spun_second"]
+        },
+        {
+          "shader": "shaders/blend.wgsl",
+          "inputs": ["first", "second", "spun_first", "spun_second"]
+        }
+      ]
+    }
+  ]
+}

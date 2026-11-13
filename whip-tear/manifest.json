@@ -1,0 +1,54 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.whip-tear",
+  "name": "Whip Tear",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The first clip tears down the middle and the two halves bow and whip off to the sides with motion blur and a soft shadow, uncovering the second clip. Recreated and optimized with reference to CapCut's \"Whip Tear\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/tear.wgsl",
+          "inputs": ["first"],
+          "outputs": ["torn"]
+        },
+        {
+          "shader": "shaders/shadow-h.wgsl",
+          "inputs": ["torn"],
+          "outputs": ["shadow_h"]
+        },
+        {
+          "shader": "shaders/shadow-v.wgsl",
+          "inputs": ["shadow_h"],
+          "outputs": ["shadow"]
+        },
+        {
+          "shader": "shaders/finish.wgsl",
+          "inputs": ["first", "second", "torn", "shadow"]
+        }
+      ]
+    }
+  ]
+}

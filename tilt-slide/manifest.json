@@ -1,0 +1,38 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.tilt-slide",
+  "name": "Tilt Slide",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The frame pulls back into a rounded card and a strip of cards slides left with a perspective tilt until the second clip comes forward to fill the frame. Recreated and optimized with reference to CapCut's \"Tilt Slide\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/tilt-slide.wgsl"
+        }
+      ]
+    }
+  ]
+}

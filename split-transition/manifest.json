@@ -1,0 +1,49 @@
+{
+  "api": 1,
+  "id": "io.github.tqk2811.capcut.split-transition",
+  "name": "Split Transition",
+  "used_for": ["gpufx"],
+  "version": "1.0.0",
+  "description": "The first input wipes away in two halves, split down the middle, over a pulsing glow of the second one under a soft light wash. Recreated and optimized with reference to CapCut's \"Split Transition\" transition resources. Drive `progress` from 0 to 1.",
+  "inputs": [
+    {
+      "name": "first",
+      "description": "Outgoing clip"
+    },
+    {
+      "name": "second",
+      "description": "Incoming clip (same size as the first)",
+      "same_size": true
+    }
+  ],
+  "params": [
+    {
+      "name": "progress",
+      "type": "float",
+      "default": 0.5,
+      "min": 0,
+      "max": 1,
+      "description": "0 = first clip, 1 = second clip"
+    }
+  ],
+  "groups": [
+    {
+      "passes": [
+        {
+          "shader": "shaders/blur-h.wgsl",
+          "inputs": ["second"],
+          "outputs": ["glow_h"]
+        },
+        {
+          "shader": "shaders/blur-v.wgsl",
+          "inputs": ["glow_h"],
+          "outputs": ["glow_v"]
+        },
+        {
+          "shader": "shaders/final.wgsl",
+          "inputs": ["first", "second", "glow_v"]
+        }
+      ]
+    }
+  ]
+}
