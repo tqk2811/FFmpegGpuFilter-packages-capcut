@@ -1,0 +1,17 @@
+{
+  "name": "Quét đỏ (Red Swipe)",
+  "description": "Các vệt dọc sắp xếp theo pixel làm clip đầu chảy xuống trong khi bánh xe màu tràn vào kênh đỏ, rồi các vệt và sắc đỏ rút dần khỏi clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Red Swipe\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "quét đỏ",
+    "pixel sort",
+    "vệt dọc",
+    "chảy",
+    "kênh đỏ"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

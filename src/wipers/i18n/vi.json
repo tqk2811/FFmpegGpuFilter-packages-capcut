@@ -1,0 +1,17 @@
+{
+  "name": "Cần gạt nước (Wipers)",
+  "description": "Một cần gạt bản lề ở góc trên bên trái quét clip đầu đi sang clip thứ hai thang xám, rồi cần gạt thứ hai bản lề ở góc trên bên phải quét màu trở lại. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Wipers\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "cần gạt nước",
+    "gạt",
+    "thang xám",
+    "góc",
+    "quét"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

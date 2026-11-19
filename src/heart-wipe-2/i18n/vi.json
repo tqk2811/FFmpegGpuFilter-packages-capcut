@@ -1,0 +1,17 @@
+{
+  "name": "Quét trái tim 2 (Heart Wipe 2)",
+  "description": "Một trái tim cùng hai bóng mờ lặp mở ra trên clip đầu để lộ clip thứ hai, lắc lư rồi phình ra lấp đầy khung hình. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Heart Wipe 2\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "trái tim",
+    "quét",
+    "mở ra",
+    "lắc",
+    "tình yêu"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

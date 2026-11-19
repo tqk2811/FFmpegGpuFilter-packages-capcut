@@ -1,0 +1,17 @@
+{
+  "name": "Mở ô vuông (Square Out)",
+  "description": "Một ô cửa sổ mở ra từ giữa clip đầu, đẩy bốn cạnh ra ngoài, và để lộ clip thứ hai đang zoom lên bên trong. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Square Out\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "ô vuông",
+    "cửa sổ",
+    "mở ra",
+    "zoom",
+    "từ giữa"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Quét cọ vẽ (Paintbrush Wipe)",
+  "description": "Clip thứ hai được vẽ lên clip đầu bằng các nét cọ khô quét từ góc trên bên trái xuống bên phải. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Paintbrush Wipe\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "cọ vẽ",
+    "cọ khô",
+    "quét",
+    "nét vẽ",
+    "sơn"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

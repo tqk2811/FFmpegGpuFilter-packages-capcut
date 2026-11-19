@@ -1,0 +1,17 @@
+{
+  "name": "Trượt nghiêng (Tilt Slide)",
+  "description": "Khung hình lùi thành thẻ bo góc và một dải thẻ trượt sang trái với độ nghiêng phối cảnh cho đến khi clip thứ hai tiến lên lấp đầy khung hình. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Tilt Slide\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "trượt nghiêng",
+    "thẻ",
+    "phối cảnh",
+    "dải thẻ",
+    "trượt trái"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

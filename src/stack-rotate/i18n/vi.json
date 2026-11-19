@@ -1,0 +1,17 @@
+{
+  "name": "Xếp chồng và xoay (Stack & Rotate)",
+  "description": "Clip đầu thu nhỏ thành thẻ nghiêng giữa các thẻ bên nhòe trong khi cả chồng thẻ lăn nửa vòng, một nhịp nhòe và xoắn che việc hoán đổi, rồi thẻ clip thứ hai dừng lại toàn khung hình. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Stack & Rotate\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "xếp chồng",
+    "xoay",
+    "thẻ",
+    "nhòe",
+    "xoắn"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

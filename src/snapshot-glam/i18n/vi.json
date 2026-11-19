@@ -1,0 +1,17 @@
+{
+  "name": "Ảnh chụp lung linh (Snapshot Glam)",
+  "description": "Clip đầu ngả ra sau và đi xa như tấm ảnh, clip thứ hai đu lên từ phía dưới với chút xoắn và hạ cánh cùng nhòe zoom nhanh. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Snapshot Glam\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "ảnh chụp",
+    "tấm ảnh",
+    "đu lên",
+    "xoắn",
+    "nhòe zoom"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

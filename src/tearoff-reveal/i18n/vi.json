@@ -1,0 +1,17 @@
+{
+  "name": "Xé dải để lộ (Tearoff Reveal)",
+  "description": "Một dải đục lỗ bị xé xuống giữa clip đầu, rồi hai nửa bóc ra hai bên kèm bóng mềm, để lộ clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Tearoff Reveal\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "xé dải",
+    "đục lỗ",
+    "bóc",
+    "bóng mềm",
+    "để lộ"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Gập đè (Fold Over)",
+  "description": "Clip thứ hai đu xuống theo phối cảnh từ bản lề ở mép trên, kèm nhòe chuyển động, đè lên clip đầu đang thu nhỏ dưới nhòe zoom. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Fold Over\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "gập",
+    "bản lề",
+    "phối cảnh",
+    "đu xuống",
+    "nhòe chuyển động"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Chủ đề tình yêu (Love Theme)",
+  "description": "Một tấm màn trái tim hồng kiểu pixel-art trườn lên trên clip đầu theo từng bước stop-motion rồi bay lên trên clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Love Theme\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "trái tim",
+    "pixel",
+    "hồng",
+    "stop-motion",
+    "tình yêu"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Chuyển sang trái (Left Transition)",
+  "description": "Cả hai clip trượt sang trái với nhòe chuyển động mạnh, clip thứ hai vào từ bên phải, dưới rò sáng ấm và các thanh letterbox đen đóng rồi mở lại. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Left Transition\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "trượt trái",
+    "nhòe chuyển động",
+    "rò sáng",
+    "letterbox",
+    "đẩy"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

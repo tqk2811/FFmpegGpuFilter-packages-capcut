@@ -1,0 +1,17 @@
+{
+  "name": "Gợn sóng rộng (Wide Ripple)",
+  "description": "Hình ảnh phình ra và trôi sang ngang qua ống kính góc rộng nén kèm nhòe zoom, tông ấm và nhiễu hạt phim, cắt sang clip thứ hai khi nó ổn định lại. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Wide Ripple\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "gợn sóng",
+    "góc rộng",
+    "nhòe zoom",
+    "tông ấm",
+    "nhiễu hạt"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

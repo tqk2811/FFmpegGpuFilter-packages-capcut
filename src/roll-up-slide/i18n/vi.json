@@ -1,0 +1,17 @@
+{
+  "name": "Cuộn lên trượt (Roll-up Slide)",
+  "description": "Clip đầu cuộn lên theo đường chéo như trang giấy cuộn vào hình trụ, để lộ clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Roll-up Slide\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "cuộn lên",
+    "đường chéo",
+    "trang giấy",
+    "hình trụ",
+    "cuộn"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

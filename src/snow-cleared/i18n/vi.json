@@ -1,0 +1,17 @@
+{
+  "name": "Tuyết tan (Snow Cleared)",
+  "description": "Tuyết thành vệt tích tụ thành màn trắng xóa che bước chuyển từ clip đầu sang clip thứ hai, rồi tan đi. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Snow Cleared\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "tuyết",
+    "trắng xóa",
+    "vệt tuyết",
+    "tan",
+    "mùa đông"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

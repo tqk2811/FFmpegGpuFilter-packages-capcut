@@ -1,0 +1,17 @@
+{
+  "name": "Graffiti phát sáng (Glowing Graffiti)",
+  "description": "Rò sáng đỏ và các tia lửa trôi chồng lên hình ảnh trong khi sơn graffiti chảy giọt và một chớp kem chói mắt quét ngang, cắt sang clip thứ hai dưới ánh chớp. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Glowing Graffiti\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "graffiti",
+    "sơn",
+    "rò sáng",
+    "tia lửa",
+    "chớp sáng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

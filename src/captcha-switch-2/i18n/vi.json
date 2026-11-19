@@ -1,0 +1,17 @@
+{
+  "name": "Chuyển captcha 2 (Captcha Switch 2)",
+  "description": "Một thẻ captcha hiện lên trên clip đầu, con trỏ kéo thanh trượt để xếp thẳng hai vòng tròn xoay hiển thị clip thứ hai, rồi thẻ phóng xuyên qua màn hình để lộ clip. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Captcha Switch 2\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "captcha",
+    "thanh trượt",
+    "con trỏ",
+    "thẻ",
+    "phóng to"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

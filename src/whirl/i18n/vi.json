@@ -1,0 +1,17 @@
+{
+  "name": "Xoáy tròn (Whirl)",
+  "description": "Clip thứ hai bay lên từ đáy dưới dạng thẻ bo góc, lộn 3D kèm nhòe chuyển động và nhấp nháy phơi sáng, rồi lớn dần lấp đầy khung hình trên clip đầu đã tối đi. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Whirl\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "xoáy",
+    "thẻ",
+    "3d",
+    "lộn",
+    "phơi sáng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

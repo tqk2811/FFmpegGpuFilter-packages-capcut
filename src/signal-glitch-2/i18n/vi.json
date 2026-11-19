@@ -1,0 +1,17 @@
+{
+  "name": "Glitch tín hiệu 2 (Signal Glitch 2)",
+  "description": "Glitch sang clip thứ hai: các kênh màu trôi tách nhau, hình ảnh giật sang ngang kèm vệt chuyển động, nở quầng thừa sáng, kéo vệt, rách theo nhiễu xoay dưới các dải nhiễu sáng và nhấp nháy xám. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Signal Glitch 2\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "glitch",
+    "tín hiệu",
+    "nhiễu",
+    "tách kênh",
+    "xám"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

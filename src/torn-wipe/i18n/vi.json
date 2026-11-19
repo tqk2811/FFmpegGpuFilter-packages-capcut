@@ -1,0 +1,17 @@
+{
+  "name": "Quét giấy rách (Torn Wipe)",
+  "description": "Các dải giấy rách của hai clip trượt vào từ mọi phía trước khi clip thứ hai chiếm lấy khung hình. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Torn Wipe\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "giấy rách",
+    "dải",
+    "quét",
+    "xé",
+    "mọi phía"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

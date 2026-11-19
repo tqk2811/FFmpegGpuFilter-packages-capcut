@@ -1,0 +1,17 @@
+{
+  "name": "Grunge hồng (Pink Grunge)",
+  "description": "Hình ảnh lật sang âm bản rung và nhòe chuyển động dưới lớp rò sáng grunge hồng và đỏ nhấp nháy, cắt sang clip thứ hai ở mốc 40%. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Pink Grunge\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "grunge",
+    "hồng",
+    "âm bản",
+    "rò sáng",
+    "rung"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

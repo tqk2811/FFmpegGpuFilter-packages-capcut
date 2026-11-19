@@ -1,0 +1,17 @@
+{
+  "name": "Nhòe bong bóng (Bubble Blur)",
+  "description": "Cả hai clip mờ thành bokeh hình vòng, nơi các điểm sáng nở thành bong bóng rỗng, hòa trộn chéo ở đỉnh điểm của độ nhòe. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Bubble Blur\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "bong bóng",
+    "bokeh",
+    "nhòe",
+    "vòng tròn",
+    "hòa trộn"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

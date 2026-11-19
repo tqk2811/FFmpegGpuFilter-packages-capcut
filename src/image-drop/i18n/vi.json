@@ -1,0 +1,17 @@
+{
+  "name": "Rơi hình (Image Drop)",
+  "description": "Hình ảnh võng xuống và nhòe theo nhòe chuyển động dọc, cắt sang clip thứ hai rồi bật về đúng chỗ. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Image Drop\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "rơi",
+    "võng xuống",
+    "nhòe dọc",
+    "bật lại",
+    "chuyển động"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

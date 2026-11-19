@@ -1,0 +1,17 @@
+{
+  "name": "Viên giấy vo (Paper Ball)",
+  "description": "Một viên giấy vo tròn rơi xuống clip đầu, mở ra thành tờ giấy và xé toạc để lộ clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Paper Ball\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "giấy vo",
+    "tờ giấy",
+    "xé",
+    "mở ra",
+    "giấy"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

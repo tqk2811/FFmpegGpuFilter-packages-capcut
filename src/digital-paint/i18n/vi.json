@@ -1,0 +1,17 @@
+{
+  "name": "Sơn kỹ thuật số (Digital Paint)",
+  "description": "Clip đầu bùng lên với quầng sáng nhấp nháy, các nét cọ vẽ bản halftone chấm đen của clip thứ hai lên trên, rồi vòng nét cọ thứ hai để lộ clip thứ hai phát sáng, kèm các cú đấm nhòe zoom. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Digital Paint\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "sơn",
+    "cọ vẽ",
+    "halftone",
+    "phát sáng",
+    "nhòe zoom"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

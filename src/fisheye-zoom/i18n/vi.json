@@ -1,0 +1,17 @@
+{
+  "name": "Zoom mắt cá (Fisheye Zoom)",
+  "description": "Clip đầu phình thành đĩa mắt cá thu về tâm dưới nhòe zoom tăng dần, để lộ clip thứ hai khi nó duỗi thẳng khỏi hiệu ứng mắt cá của chính mình. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Fisheye Zoom\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "mắt cá",
+    "zoom",
+    "đĩa",
+    "nhòe zoom",
+    "phình"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

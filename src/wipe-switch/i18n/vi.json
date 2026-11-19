@@ -1,0 +1,17 @@
+{
+  "name": "Chuyển thanh bạc (Wipe Switch)",
+  "description": "Một thanh bạc quét xuống khung hình, để lộ clip thứ hai phía trên nó trong khi clip đầu vẫn ở bên dưới. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Wipe Switch\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "thanh bạc",
+    "quét xuống",
+    "kim loại",
+    "để lộ",
+    "quét"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

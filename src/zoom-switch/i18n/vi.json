@@ -1,0 +1,17 @@
+{
+  "name": "Chuyển zoom (Zoom Switch)",
+  "description": "Hình ảnh đấm vào rồi bật lại, sau đó nghiêng và lắc 3D khi cắt sang clip thứ hai, tất cả nhòe bởi nhòe chuyển động camera. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Zoom Switch\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "zoom",
+    "đấm",
+    "lắc 3d",
+    "nhòe chuyển động",
+    "chuyển cảnh"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

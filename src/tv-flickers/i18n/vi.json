@@ -1,0 +1,17 @@
+{
+  "name": "TV nhấp nháy (TV Flickers)",
+  "description": "Các đường quét CRT nhuộm màu mờ dần hiện lên trong khi hình ảnh mất màu và nhòe dọc thành vệt làm nét quá mức, đổi sang clip thứ hai ở đỉnh điểm. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"TV Flickers\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "tv",
+    "nhấp nháy",
+    "crt",
+    "đường quét",
+    "mất màu"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

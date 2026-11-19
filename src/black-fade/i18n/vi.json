@@ -1,0 +1,17 @@
+{
+  "name": "Mờ qua đen (Black Fade)",
+  "description": "Mờ clip đầu dần thành đen, rồi từ đen hiện dần clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Black Fade\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "mờ dần",
+    "đen",
+    "fade",
+    "hòa tan",
+    "cơ bản"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

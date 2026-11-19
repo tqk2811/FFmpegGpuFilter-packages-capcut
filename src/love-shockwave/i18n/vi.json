@@ -1,0 +1,17 @@
+{
+  "name": "Sóng xung kích tình yêu (Love Shockwave)",
+  "description": "Một trái tim pixel-art phát sáng lớn dần từ giữa clip đầu, bên trong là clip thứ hai, cho đến khi lấp đầy khung hình. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Love Shockwave\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "trái tim",
+    "pixel",
+    "sóng xung kích",
+    "tình yêu",
+    "phát sáng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

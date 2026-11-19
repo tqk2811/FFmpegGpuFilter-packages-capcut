@@ -1,0 +1,17 @@
+{
+  "name": "Tách graffiti (Split Graffiti)",
+  "description": "Các nét nguệch ngoạc trắng như phấn quét qua clip đầu, rồi clip thứ hai vỡ vào thành các mảnh nghiêng viền trắng khép lại dọc vết rách ngang răng cưa. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Split Graffiti\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "tách",
+    "graffiti",
+    "phấn",
+    "mảnh vỡ",
+    "vết rách"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

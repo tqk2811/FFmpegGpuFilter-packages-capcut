@@ -1,0 +1,17 @@
+{
+  "name": "CRT sang số 2 (CRT 2 Digital)",
+  "description": "Camera lùi ra khỏi clip đầu để thấy một chiếc TV cũ trong căn phòng tối; hình ảnh nhiễu rơi ra khỏi màn hình xuống sàn, clip thứ hai phát trên máy, rồi camera đẩy vào lại. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"CRT 2 Digital\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "crt",
+    "tv cũ",
+    "nhiễu",
+    "glitch",
+    "retro"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

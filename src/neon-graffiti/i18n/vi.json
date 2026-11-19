@@ -1,0 +1,17 @@
+{
+  "name": "Graffiti neon (Neon Graffiti)",
+  "description": "Các nét nguệch ngoạc neon vàng nhấp nháy trên clip đầu, clip giật và kéo giãn thành chớp trắng, rồi clip thứ hai bật về đúng chỗ dưới quầng sáng mờ dần. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Neon Graffiti\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "neon",
+    "graffiti",
+    "vàng",
+    "nhấp nháy",
+    "chớp trắng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

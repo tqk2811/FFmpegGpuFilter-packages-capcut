@@ -1,0 +1,17 @@
+{
+  "name": "Lật hoa anh đào (Sakura Flip)",
+  "description": "Một cánh hoa anh đào khổng lồ quét qua khung hình giữa những cánh hoa trôi và lật lại trong khi một đường quét mềm để lộ clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Sakura Flip\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "hoa anh đào",
+    "sakura",
+    "cánh hoa",
+    "lật",
+    "quét mềm"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

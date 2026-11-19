@@ -1,0 +1,17 @@
+{
+  "name": "Hình chữ nhật bay (Flying Rectangle)",
+  "description": "Clip đầu phóng to qua khung đen khép thành dải, nghiêng thẳng đứng rồi bay đi; sau đó clip thứ hai ổn định lại từ cú zoom nhòe với quầng sáng mờ dần. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Flying Rectangle\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "hình chữ nhật",
+    "bay",
+    "khung đen",
+    "zoom",
+    "quầng sáng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Trắng xóa pixel (Whiteout Pixel)",
+  "description": "Hình ảnh biến thành màn chấm RGB đang zoom, cắt sang clip thứ hai dưới đường quét sáng trắng, rồi đường quét magenta khi các chấm mờ đi. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Whiteout Pixel\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "trắng xóa",
+    "pixel",
+    "chấm rgb",
+    "magenta",
+    "quét sáng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

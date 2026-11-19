@@ -1,0 +1,17 @@
+{
+  "name": "Hơi nóng rung rinh (Hot Shimmers)",
+  "description": "Hòa tan sang clip thứ hai qua biến dạng hơi nóng với quầng sáng ở vùng sáng và nhòe zoom tuôn lên từ mép dưới. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Hot Shimmers\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "hơi nóng",
+    "rung rinh",
+    "biến dạng",
+    "nhòe zoom",
+    "quầng sáng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

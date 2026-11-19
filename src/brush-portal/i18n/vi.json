@@ -1,0 +1,17 @@
+{
+  "name": "Cổng cọ vẽ (Brush Portal)",
+  "description": "Clip thứ hai được vẽ vào qua nét cọ xoáy lớn dần từ tâm, với viền âm bản phát sáng và lớp rò sáng. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Brush Portal\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "cọ vẽ",
+    "cổng",
+    "xoáy",
+    "âm bản",
+    "rò sáng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

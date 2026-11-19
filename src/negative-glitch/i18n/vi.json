@@ -1,0 +1,21 @@
+{
+  "name": "Glitch âm bản (Negative Glitch)",
+  "description": "Hình ảnh lật sang âm bản, bùng phơi sáng, rung và zoom ra với mép gương, vẻ tín hiệu analog nhòe và mất màu, cắt sang clip thứ hai ở đỉnh điểm. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Negative Glitch\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "glitch",
+    "âm bản",
+    "analog",
+    "rung",
+    "mất màu"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    },
+    "duration": {
+      "label": "Thời lượng",
+      "description": "Thời lượng thực của chuyển cảnh tính bằng giây; quyết định tốc độ rung"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "name": "Rung gợn sóng (Ripple Vibe)",
+  "description": "Hình ảnh rung, bùng sáng và gợn sang ngang thành các làn sóng nhiễu trong khi cắt sang clip thứ hai ở điểm giữa. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Ripple Vibe\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "gợn sóng",
+    "rung",
+    "bùng sáng",
+    "nhiễu",
+    "sóng ngang"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    },
+    "duration": {
+      "label": "Thời lượng",
+      "description": "Thời lượng thực của chuyển cảnh tính bằng giây; quyết định tốc độ rung và tốc độ gợn sóng"
+    },
+    "animate": {
+      "label": "Hoạt ảnh",
+      "description": "true (mặc định) = rung và gợn sóng chuyển động theo thời gian thực trong `duration`. false = như bản xuất của CapCut: cả hai đứng yên ở vị trí t = 0 và chỉ biên độ và chớp sáng thay đổi"
+    }
+  }
+}

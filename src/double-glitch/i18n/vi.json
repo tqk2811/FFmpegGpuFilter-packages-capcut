@@ -1,0 +1,17 @@
+{
+  "name": "Glitch đôi (Double Glitch)",
+  "description": "Cắt cứng được che dưới một đợt glitch ngang ngắn: khung hình trượt và cuộn gương, vệt nhòe sang ngang, hình ảnh chớp tông ba màu đỏ và tách kênh RGB. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Double Glitch\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "glitch",
+    "nhiễu",
+    "tách rgb",
+    "gương",
+    "đỏ"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

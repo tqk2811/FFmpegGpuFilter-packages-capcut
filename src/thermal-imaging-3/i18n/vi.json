@@ -1,0 +1,17 @@
+{
+  "name": "Ảnh nhiệt 3 (Thermal Imaging 3)",
+  "description": "Clip thứ hai cháy vào từ vùng sáng xuống vùng tối trong khi quầng màu bị trừ khỏi hình ảnh tạo vẻ camera nhiệt giả màu. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Thermal Imaging 3\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "ảnh nhiệt",
+    "camera nhiệt",
+    "giả màu",
+    "cháy",
+    "quầng màu"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

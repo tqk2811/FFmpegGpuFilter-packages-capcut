@@ -1,0 +1,17 @@
+{
+  "name": "Nhấp nháy cầu vồng (Rainbow Strobe)",
+  "description": "Các đèn bokeh nhiều màu nhấp nháy trên khung hình ở chế độ hòa trộn screen, hình ảnh cắt sang clip thứ hai được làm sáng rồi trở lại bình thường. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Rainbow Strobe\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "cầu vồng",
+    "nhấp nháy",
+    "bokeh",
+    "nhiều màu",
+    "screen"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

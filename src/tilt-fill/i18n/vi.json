@@ -1,0 +1,17 @@
+{
+  "name": "Nghiêng lấp đầy (Tilt Fill)",
+  "description": "Một cửa sổ nghiêng vào clip thứ hai mở ra từ một đường thẳng, rộng thành dải và lấp đầy khung hình. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Tilt Fill\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "nghiêng",
+    "cửa sổ",
+    "dải",
+    "lấp đầy",
+    "mở ra"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

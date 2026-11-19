@@ -1,0 +1,17 @@
+{
+  "name": "Chuyển khung cắt (Crop Switch)",
+  "description": "Các tấm cắt của clip thứ hai bật lên trên clip đầu kèm bóng đổ và giật, rồi clip thứ hai cắt vào. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Crop Switch\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "khung cắt",
+    "tấm",
+    "bóng đổ",
+    "giật",
+    "bật lên"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

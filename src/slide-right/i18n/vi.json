@@ -1,0 +1,17 @@
+{
+  "name": "Trượt sang phải (Slide Right)",
+  "description": "Cả hai clip cùng trượt sang phải, clip thứ hai đẩy vào từ bên trái, với ease-in-out. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Right\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "trượt phải",
+    "đẩy",
+    "ease",
+    "cơ bản",
+    "trượt"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

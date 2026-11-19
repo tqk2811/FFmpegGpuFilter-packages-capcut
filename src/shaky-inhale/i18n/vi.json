@@ -1,0 +1,17 @@
+{
+  "name": "Hít vào rung (Shaky Inhale)",
+  "description": "Hút clip đầu vào trong dưới nhòe zoom rung và quầng sáng trắng, rồi bật clip thứ hai ra khỏi hiệu ứng mắt cá. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Shaky Inhale\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "hít vào",
+    "hút",
+    "rung",
+    "mắt cá",
+    "quầng sáng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

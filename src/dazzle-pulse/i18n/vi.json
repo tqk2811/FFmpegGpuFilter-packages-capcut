@@ -1,0 +1,17 @@
+{
+  "name": "Xung chói lóa (Dazzle Pulse)",
+  "description": "Một xung sáng: khung hình phình ra, gợn sóng, bùng phơi sáng và rung với nhòe zoom cùng tách màu, cắt sang clip thứ hai ở đỉnh điểm. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Dazzle Pulse\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "chói lóa",
+    "xung",
+    "phơi sáng",
+    "rung",
+    "tách màu"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

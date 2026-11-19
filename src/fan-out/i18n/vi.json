@@ -1,0 +1,17 @@
+{
+  "name": "Xòe quạt (Fan Out)",
+  "description": "Các múi vàng, trắng rồi múi của clip tới xòe ra quanh tâm trong khi cả hai clip xoay, gợn sóng và xoáy, kèm chút cong ống kính. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Fan Out\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "xòe quạt",
+    "múi",
+    "xoáy",
+    "gợn sóng",
+    "ống kính"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

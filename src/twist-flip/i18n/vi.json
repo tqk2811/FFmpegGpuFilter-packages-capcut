@@ -1,0 +1,17 @@
+{
+  "name": "Xoắn lật (Twist Flip)",
+  "description": "Clip đầu tối đi và xoắn quanh đường chéo như dải ruy băng, thắt lại ở giữa, rồi xoắn ra cho thấy clip thứ hai ở mặt sau, thu nhỏ nhẹ trên nền đen. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Twist Flip\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "xoắn",
+    "lật",
+    "ruy băng",
+    "đường chéo",
+    "thắt lại"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

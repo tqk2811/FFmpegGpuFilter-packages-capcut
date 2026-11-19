@@ -1,0 +1,17 @@
+{
+  "name": "Gió cánh hoa (Petal Wind)",
+  "description": "Một luồng gió cuốn cánh hoa hồng đỏ quét qua khung hình trong khi clip đầu hòa tan sang clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Petal Wind\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "cánh hoa",
+    "hoa hồng",
+    "gió",
+    "đỏ",
+    "hòa tan"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Nhòe phim (Film Blur)",
+  "description": "Cắt cứng được che dưới một đợt rò sáng ấm tương phản cao chồng lên hình ảnh. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Film Blur\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "phim",
+    "rò sáng",
+    "ấm",
+    "tương phản",
+    "nhòe"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

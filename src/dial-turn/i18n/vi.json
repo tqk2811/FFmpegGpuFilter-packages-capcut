@@ -1,0 +1,17 @@
+{
+  "name": "Xoay núm (Dial Turn)",
+  "description": "Clip đầu bị hất sang trái với nhòe ngang tăng dần, rồi clip thứ hai đu vào như núm xoay quanh giữa đáy, vượt quá rồi ổn định với dao động nảy và nhòe xoay. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Dial Turn\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "núm xoay",
+    "đu",
+    "nảy",
+    "nhòe xoay",
+    "trượt"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

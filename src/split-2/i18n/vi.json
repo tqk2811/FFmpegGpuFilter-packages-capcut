@@ -1,0 +1,21 @@
+{
+  "name": "Tách đôi II (Split II)",
+  "description": "Nửa trên và nửa dưới trượt sang bên ngược chiều nhau kèm nhòe chuyển động, để lộ clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Split II\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "tách đôi",
+    "trượt ngang",
+    "nhòe chuyển động",
+    "ngược chiều",
+    "quét"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    },
+    "duration": {
+      "label": "Thời lượng",
+      "description": "Thời lượng thực của chuyển cảnh tính bằng giây; quyết định mức nhòe chuyển động"
+    }
+  }
+}

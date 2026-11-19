@@ -1,0 +1,17 @@
+{
+  "name": "Cọ vẽ để lộ (Reveal Brush)",
+  "description": "Các nét cọ ngoằn ngoèo vẽ clip thứ hai lên clip đầu, rồi nó hiện rõ hoàn toàn. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Reveal Brush\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "cọ vẽ",
+    "ngoằn ngoèo",
+    "để lộ",
+    "nét vẽ",
+    "mờ dần"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

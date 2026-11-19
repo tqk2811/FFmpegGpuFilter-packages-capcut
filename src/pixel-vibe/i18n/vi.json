@@ -1,0 +1,21 @@
+{
+  "name": "Rung pixel (Pixel Vibe)",
+  "description": "Một màn chấm halftone mờ dần phủ lên khung hình trong khi nó bùng phơi sáng, đấm vào với nhòe zoom và rung, cắt sang clip thứ hai ở điểm giữa. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Pixel Vibe\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "pixel",
+    "halftone",
+    "chấm",
+    "phơi sáng",
+    "nhòe zoom"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    },
+    "duration": {
+      "label": "Thời lượng",
+      "description": "Thời lượng thực của chuyển cảnh tính bằng giây; quyết định tốc độ rung"
+    }
+  }
+}

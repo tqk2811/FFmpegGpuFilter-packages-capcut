@@ -1,0 +1,17 @@
+{
+  "name": "Đẩy ra xa 2 (Push Away 2)",
+  "description": "Clip đầu bị nén, thu nhỏ và quay đi kèm rung camera, rồi clip thứ hai xoay vào từ góc nhìn phình to dưới nhòe xoay, quầng sáng nổi bật và chớp trắng. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Push Away 2\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "đẩy ra",
+    "nén",
+    "xoay",
+    "nhòe xoay",
+    "chớp trắng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

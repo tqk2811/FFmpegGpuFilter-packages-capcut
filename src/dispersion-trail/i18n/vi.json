@@ -1,0 +1,17 @@
+{
+  "name": "Vệt tán sắc (Dispersion Trail)",
+  "description": "Clip đầu nở thành quầng sáng trắng, một tấm màn các vệt sáng cầu vồng nhòe trôi chéo qua khung hình, rồi clip thứ hai hiện ra qua quầng sáng đang mờ. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Dispersion Trail\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "tán sắc",
+    "cầu vồng",
+    "vệt sáng",
+    "phát sáng",
+    "chéo"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

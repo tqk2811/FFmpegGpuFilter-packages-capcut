@@ -1,0 +1,17 @@
+{
+  "name": "Kéo tách ra (Pull Away)",
+  "description": "Clip đầu tách dọc theo đường giữa và hai nửa trượt đi lên xuống, để lộ clip thứ hai dưới dạng hai tấm tối nghiêng rồi mở phẳng ra. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Pull Away\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "kéo tách",
+    "tách đôi",
+    "trượt",
+    "tấm nghiêng",
+    "mở phẳng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

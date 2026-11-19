@@ -1,0 +1,17 @@
+{
+  "name": "Zoom gạch kính 2 (Glassblock Zoom 2)",
+  "description": "Cắt sang clip thứ hai bên trong nhòe zoom gương 5 lần với viền sắc sai, trong khi lưới biến dạng cong kéo hình ảnh thành bốn ô gạch kính. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Glassblock Zoom 2\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "gạch kính",
+    "zoom",
+    "gương",
+    "sắc sai",
+    "biến dạng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

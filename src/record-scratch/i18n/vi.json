@@ -1,0 +1,17 @@
+{
+  "name": "Xước đĩa (Record Scratch)",
+  "description": "Clip đầu bị hất sang bên kèm nảy trong khi clip thứ hai trượt vào, nhòe thành vệt sáng dưới ống kính phồng gối và nén ở tâm, cùng các đốm bụi lấp lánh. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Record Scratch\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "xước đĩa",
+    "vệt sáng",
+    "ống kính",
+    "bụi",
+    "trượt"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

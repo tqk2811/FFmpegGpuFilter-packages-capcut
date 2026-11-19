@@ -1,0 +1,17 @@
+{
+  "name": "Chớp âm bản (Negative Flash)",
+  "description": "Clip đầu nhấp nháy dưới tông màu mạnh với hai chớp âm bản nhanh, rồi chuyển vào clip thứ hai qua tông bóng tối bị nén đang mờ dần. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Zoom Negative\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "âm bản",
+    "chớp",
+    "nhấp nháy",
+    "tương phản",
+    "bóng tối"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "Trượt ba cột (Triple Slide)",
+  "description": "Khung hình tách thành ba cột trượt dọc ngược chiều nhau kèm nhòe chuyển động, đẩy clip đầu ra và clip thứ hai vào, trong khi hình ảnh nhấp nhô trong cú zoom. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Triple Slide\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "ba cột",
+    "trượt dọc",
+    "ngược chiều",
+    "nhòe chuyển động",
+    "zoom"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

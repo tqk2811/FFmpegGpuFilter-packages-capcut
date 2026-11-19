@@ -1,0 +1,17 @@
+{
+  "name": "TV lệch hình (TV Shift)",
+  "description": "Clip đầu mất màu dưới các đường quét TV tối nhấp nháy, rồi vệt nhòe dọc che một cú mờ nhanh sang clip thứ hai. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"TV Shift\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "tv",
+    "lệch hình",
+    "đường quét",
+    "mất màu",
+    "nhòe dọc"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}

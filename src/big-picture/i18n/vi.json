@@ -1,0 +1,17 @@
+{
+  "name": "Bức ảnh lớn (Big Picture)",
+  "description": "Một biểu tượng khung cắt màu trắng trượt vào rồi mở thành chiếc hộp để lộ clip thứ hai và phóng to lấp đầy khung hình. Tái tạo và tối ưu dựa trên tài nguyên chuyển cảnh \"Big Picture\" của CapCut. Điều khiển `progress` từ 0 đến 1.",
+  "tags": [
+    "khung cắt",
+    "hộp",
+    "mở rộng",
+    "phóng to",
+    "biểu tượng"
+  ],
+  "params": {
+    "progress": {
+      "label": "Tiến trình",
+      "description": "0 = clip đầu, 1 = clip thứ hai"
+    }
+  }
+}
