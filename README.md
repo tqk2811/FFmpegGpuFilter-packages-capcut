@@ -2,6 +2,8 @@
 
 CapCut transitions as gpufx packages, recreated and optimized with reference to CapCut's resources. The shaders are written from scratch in WGSL; no CapCut assets, code or fonts are included.
 
+Each package is a folder of `src/` with its `manifest.json`.
+
 ## Build
 
 Run `py scripts/pack.py` (Python 3, standard library only). It writes one zip per package, with `manifest.json` at the root, and `capcut-packages.zip` holding all of them into `dist/`.

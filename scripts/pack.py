@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Packs every package of this repository into a zip of its own, plus one zip holding them all.
 
-A package is a top-level folder with a manifest.json. Each <name>.zip has the manifest at its root,
-as gpufx and the editor's package import read it. capcut-packages.zip keeps the folders.
+A package is a folder of src/ with a manifest.json. Each <name>.zip has the manifest at its root,
+as gpufx and the editor's package import read it. capcut-packages.zip keeps the package folders, without src/.
 
 usage: python scripts/pack.py [--out dist]
 Needs only the Python standard library.
@@ -15,10 +15,11 @@ import zipfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+SRC = ROOT / "src"
 
 
 def packages():
-    return sorted(p for p in ROOT.iterdir() if p.is_dir() and (p / "manifest.json").is_file())
+    return sorted(p for p in SRC.iterdir() if p.is_dir() and (p / "manifest.json").is_file())
 
 
 def check(package):
@@ -52,7 +53,7 @@ def main():
             with zipfile.ZipFile(out / f"{package.name}.zip", "w", zipfile.ZIP_DEFLATED) as single:
                 for f in files_of(package):
                     single.write(f, f.relative_to(package).as_posix())
-                    everything.write(f, f.relative_to(ROOT).as_posix())
+                    everything.write(f, f.relative_to(SRC).as_posix())
     print(f"packed {len(found)} packages into {out}")
     return 0
 
